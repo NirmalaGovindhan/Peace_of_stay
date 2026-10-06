@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: blue;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.stay-image{
+    display: flex;
+}
+.facilities{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.facility-box{
+    width: 180px;
+    border: 3px solid blue;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 10px;
+
+}
+
+.facilities-botton{
+    background-color: azure;
+    color: blue;
+    width: 35px;
+    text-align: center;
+}

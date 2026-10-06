@@ -1,0 +1,165 @@
+
+.resort-card{
+    width: 900px;
+    display: flex;
+    height: 350px;
+    margin: 50px auto;
+    background-color:rgb(2, 160, 160);
+    border-radius: 30px;
+    overflow: hidden;}
+.resort-card>img{
+    width:45%;
+    height:100%;
+    object-fit: cover;
+    }
+
+.resort details{
+    width: 50px;
+    padding: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.resort h2{
+    align-items: center;
+}
+.resort details h2{
+    font-size: 25px;
+    margin: 30px;
+}
+.resort details p{
+    font-size: 25px;
+    margin: 10px;
+    ;
+} 
+.resort details h3{
+    margin:30px;
+    font-size:15px;
+    margin: 25px;
+    width: 50px;
+    color: brown;
+    align-items: center;
+}
+.resort details button{
+    background-color:orange;
+    color: rgb(225, 225, 230);
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}  
+.peace p{
+    margin:30px;
+    font-size:40px;
+    width: 70%;
+    color: rgb(17, 17, 17);
+    background-color: gold;
+    
+}
+.explore-box {
+    width: 70%;
+    height: 150px;
+    margin: 50px;}
+
+ body{
+background-color:antiquewhite;
+
+   }
+.gallery img{
+      width: 890px;
+}
+.stay-image{
+    display: flex;
+    gap: 13px;
+    width: 70px;
+}
+.side-images img {
+    width: 255px;
+}
+
+.bottom-image img {
+    width: 350px;}
+   
+h1{
+
+    color: black;
+    
+}
+
+
+.facilities{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.facility-box{
+    width: 180px;
+    border: 3px solid black;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 10px;
+
+}
+
+.botton{
+    background-color: azure;
+    color: rgb(255, 0, 0);
+    width: 150px;
+    border:2px solid black;
+    align-items: center;
+    padding: 20px;
+}
+.bottom-image{
+    display: flex;
+}
+.bottom-image{
+     gap:55px;
+    display: flex;
+}
+
+.booking-box{
+    display: flex;
+    gap:15px;
+}
+.date-box{
+    border: 2px solid rgb(8, 8, 8);
+    padding: 20px;
+    width:180px;
+    border-radius:8px;
+    background-color: skyblue;
+
+}
+.date-boxlable{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.date-box input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    background-color:burlywood;
+}
+#topbar{
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
+    border: black;
+    padding: 40px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
