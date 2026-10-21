@@ -1,6 +1,6 @@
  
  
- *{
+*{
         margin: 0;
         padding: 0;
         box-sizing: border-box;}
@@ -16,10 +16,11 @@ ul{
     color: rgb(189, 13, 13);
     text-decoration: none;
 }
-a{
+a {
     text-decoration: none;
     color: white;
     padding: 10px;
+
 }
 .p{
     background-color: rgb(242, 240, 255);
@@ -69,11 +70,7 @@ nav ul li {
 .hero-content p{
     color:rgb(253, 253, 253);
     font-size:90px;
-    width:80%;
-    
-}
-
-
+    width:80%;}
 nav {
     height: auto;
     padding: 20px;
@@ -91,18 +88,13 @@ nav {
    .hero-content p{
     font-size: 25px;
  }
- 
- 
- 
-.logo{
+ .logo{
     width: 120px;
     height: 100px;
     object-fit: contain;
     position: absolute;
-    top: 30px;
-    left:40px;
-
-}
+    top: 25px;
+    left:25px;}
 nav a{
     color: rgb(248, 245, 245);
     text-decoration: none;
