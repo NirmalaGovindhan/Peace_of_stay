@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - GSN Booking.com | Best Resorts in Yercaud</title>
+  <title>About Us - YN Peace of Stay | Best Resorts in Yercaud</title>
   <link rel="stylesheet" type="text/css" href="ht.css">
   <link rel="stylesheet" href="resort.css">
   <script src="https://kit.fontawesome.com/873fc09bf4.js" crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
     nav {
       background-color: #1e3c72;
       padding: 15px 40px;
-      display: flex !important;
+      display: flex ;
       justify-content: flex-end;
       align-items: center;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -35,11 +35,11 @@
     }
 
     nav ul {
-      display: flex !important;
+      display: flex;
       align-items: center;
       gap: 25px;
       list-style: none;
-      margin: 0 !important;
+      margin: 0 ;
     }
 
     nav ul li a {
@@ -78,8 +78,8 @@
       font-size: 40px;
       font-weight: 700;
       margin-bottom: 12px;
-      color: #ffffff !important;
-      text-align: center !important;
+      color: #ffffff ;
+      text-align: center ;
       letter-spacing: 0.5px;
     }
 
@@ -385,7 +385,8 @@
       margin-bottom: 25px;
     }
 
-    .footer-social a {
+    .footer-social a,
+    .footer-social .social-no-click {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -397,9 +398,11 @@
       font-size: 18px;
       text-decoration: none;
       transition: background-color 0.2s ease, transform 0.2s ease;
+      cursor: pointer;
     }
 
-    .footer-social a:hover {
+    .footer-social a:hover,
+    .footer-social .social-no-click:hover {
       background-color: #e5a34b;
       transform: translateY(-2px);
     }
@@ -436,7 +439,7 @@
   <!-- Navigation -->
   <nav>
     <a href="ht.html">
-      <img src="y logo.png" class="nav-logo" alt="GSN Booking Logo">
+      <img src="y logo.png" class="nav-logo" alt="YN Peace of Stay Logo">
     </a>
     <ul>
       <li><a href="ht.html" class="home-btn"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
@@ -448,7 +451,7 @@
 
   <!-- Hero Header -->
   <header class="about-hero">
-    <h1>About GSN Booking.com</h1>
+    <h1>About YN Peace of Stay</h1>
     <p>
       Your trusted destination for discovering, exploring, and reserving the most picturesque 
       and peaceful luxury resorts in Yercaud, Salem. We connect you with memorable hill station stays 
@@ -619,16 +622,16 @@
     <!-- Contact & Booking Support Banner -->
     <section class="contact-banner">
       <div class="contact-info">
-        <h2>gsn booking .com</h2>
+        <h2>YN Peace of Stay</h2>
         <p><i class="fa fa-map-marker-alt"></i> Address: Yercaud, Salem, Tamil Nadu, India</p>
         <p><i class="fa fa-phone-alt"></i> Booking Helpline: <strong>9363372360</strong></p>
         <p><i class="fa fa-clock"></i> 24 Hours Customer Assistance for All 5 Resorts</p>
       </div>
       <div class="contact-actions">
-        <button type="button" class="btn-phone" onclick="event.preventDefault(); return false;">
+        <button type="button" class="btn-phone">
           <i class="fa fa-phone"></i> Call 9363372360
         </button>
-        <button type="button" class="btn-whatsapp" onclick="event.preventDefault(); return false;">
+        <button type="button" class="btn-whatsapp">
           <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
         </button>
       </div>
@@ -637,7 +640,7 @@
 
   <!-- Footer -->
   <footer class="main-footer">
-    <div class="footer-brand">gsn booking .com</div>
+    <div class="footer-brand">YN Peace of Stay</div>
     <div class="footer-address">
       <i class="fa fa-map-marker-alt"></i> Yercaud, Salem, Tamil Nadu, India
     </div>
@@ -648,15 +651,15 @@
       <a href="https://www.youtube.com/results?search_query=yercaud+resorts" target="_blank" title="YouTube">
         <i class="fa-brands fa-youtube"></i>
       </a>
-      <a href="https://www.instagram.com" target="_blank" title="Instagram">
+      <span class="social-no-click" title="Instagram">
         <i class="fa-brands fa-instagram"></i>
-      </a>
+      </span>
       <a href="https://www.google.com/maps/search/yercaud++resorts" target="_blank" title="Google Maps">
         <i class="fa-brands fa-google"></i>
       </a>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 gsn booking .com. All Rights Reserved. Yercaud, Salem.</p>
+      <p>© 2026 YN Peace of Stay. All Rights Reserved. Yercaud, Salem.</p>
     </div>
   </footer>
 </body>

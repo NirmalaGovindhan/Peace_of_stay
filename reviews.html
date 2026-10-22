@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Customer Reviews - GSN Booking.com</title>
+  <title>Customer Reviews - YN Peace of Stay</title>
   <link rel="stylesheet" type="text/css" href="ht.css">
   <link rel="stylesheet" href="resort.css">
   <script src="https://kit.fontawesome.com/873fc09bf4.js" crossorigin="anonymous"></script>
@@ -307,6 +307,26 @@
       text-decoration: none;
     }
 
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .footer-social a,
+    .footer-social .social-no-click {
+      color: #cbd5e0;
+      font-size: 20px;
+      transition: color 0.3s;
+      cursor: pointer;
+    }
+
+    .footer-social a:hover,
+    .footer-social .social-no-click:hover {
+      color: #e5a34b;
+    }
+
     .footer-bottom {
       border-top: 1px solid rgba(255, 255, 255, 0.1);
       padding-top: 20px;
@@ -320,7 +340,7 @@
   <!-- Navigation -->
   <nav>
     <a href="ht.html">
-      <img src="y logo.png" class="nav-logo" alt="GSN Booking Logo">
+      <img src="y logo.png" class="nav-logo" alt="YN Peace of Stay Logo">
     </a>
     <ul>
       <li><a href="ht.html" class="home-btn"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
@@ -453,11 +473,11 @@
         </div>
         <div class="review-rating">★★★★★</div>
         <p class="review-text">
-          "Booked through gsn booking.com and got the best direct tariff with zero hassle. 
+          "Booked through YN Peace of Stay and got the best direct tariff with zero hassle. 
           Called their helpline 9363372360 and got instant confirmation. Excellent service!"
         </p>
         <div class="stayed-tag">
-          <i class="fa fa-check-circle"></i> Verified GSN Booking Customer
+          <i class="fa fa-check-circle"></i> Verified YN Peace of Stay Customer
         </div>
       </article>
     </div>
@@ -467,7 +487,7 @@
       <h2>Leave a Review</h2>
       <p>Share your experience with other travelers</p>
       
-      <form id="reviewForm" onsubmit="event.preventDefault(); return false;">
+      <form id="reviewForm" action="#">
         <div class="form-group">
           <label>Your Name</label>
           <input type="text" placeholder="Enter your full name">
@@ -499,22 +519,33 @@
           <textarea rows="4" placeholder="Write a few lines about your stay and experience..."></textarea>
         </div>
 
-        <button type="button" class="submit-btn" onclick="event.preventDefault(); return false;">Submit Review</button>
+        <button type="button" class="submit-btn">Submit Review</button>
       </form>
     </section>
   </main>
 
   <!-- Footer -->
   <footer class="main-footer">
-    <div class="footer-brand">gsn booking .com</div>
+    <div class="footer-brand">YN Peace of Stay</div>
     <div class="footer-address">
       <i class="fa fa-map-marker-alt"></i> Yercaud, Salem, Tamil Nadu, India
     </div>
     <div class="footer-phone">
       <i class="fa fa-phone-alt"></i> Helpline: <a href="tel:9363372360">9363372360</a>
     </div>
+    <div class="footer-social">
+      <a href="https://www.youtube.com/results?search_query=yercaud+resorts" target="_blank" title="YouTube">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <span class="social-no-click" title="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </span>
+      <a href="https://www.google.com/maps/search/yercaud++resorts" target="_blank" title="Google Maps">
+        <i class="fa-brands fa-google"></i>
+      </a>
+    </div>
     <div class="footer-bottom">
-      <p>© 2026 gsn booking .com. All Rights Reserved.</p>
+      <p>© 2026 YN Peace of Stay. All Rights Reserved.</p>
     </div>
   </footer>
 </body>
